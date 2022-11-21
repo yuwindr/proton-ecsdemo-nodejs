@@ -1,5 +1,5 @@
 # FROM ubuntu:18.04
-FROM public.ecr.aws/f0j5z9b5/ubuntu/16.04:072122
+FROM public.ecr.aws/docker/library/ubuntu:18.04
 
 # set the default NODE_ENV to production
 # for dev/test build with: docker build --build-arg NODE=development .
